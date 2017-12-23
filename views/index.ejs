@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+  <head>
+    <title><%= title %></title>
+    <!-- bootstrap -->
+    <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.min.css' />    
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <ui-view></ui-view>
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/2c8838f2ef.js"></script>
+    <!-- jquery -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- sweetalert -->
+    <script src="/node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- underscore -->
+    <script src="/node_modules/underscore/underscore-min.js"></script>    
+    <!-- angular -->
+    <script src="/node_modules/angular/angular.js"></script>    
+    <!-- 
+    <script src="/node_modules/angular-aria/angular-aria.js"></script>
+    <script src="/node_modules/angular-animate/angular-animate.js"></script>
+    <script src="/node_modules/angular-messages/angular-messages.js"></script>
+    -->
+    <!-- angular-ui-router -->
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <!-- angular-cookies -->
+    <script src="node_modules/angular-cookies/angular-cookies.min.js"></script>
+
+    <!-- application -->
+    <script src="public/app/angular.module.js"></script>
+    <script src="public/app/app-config/app.routes.js"></script>
+    <!-- services -->
+    <script src="public/app/app-services/user.service.js"></script>    
+    <!-- controllers -->
+    <script src="public/app/login/login.controller.js"></script>
+    <script src="public/app/home/home.controller.js"></script>
+  </body>
+</html>
