@@ -5,7 +5,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var passport = requiregit('passport');
+var passport = require('passport');
 var session = require('express-session');
 
 var index = require('./routes/index');
